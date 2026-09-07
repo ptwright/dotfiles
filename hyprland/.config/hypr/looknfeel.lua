@@ -8,6 +8,9 @@ hl.config({
   },
 })
 
+-- Keep Ghostty equally translucent whether focused or unfocused.
+o.window("com.mitchellh.ghostty", { opacity = "0.94 override 0.94 override" })
+
 -- hl.config({
 --   general = {
 --     -- No gaps between windows or borders.
