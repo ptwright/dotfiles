@@ -1,7 +1,7 @@
 starship init fish | source
 
 if status is-interactive
-    nerdfetch
+    fastfetch
 end
 
 set -gx PATH $PATH /opt/nvim
