@@ -9,7 +9,7 @@ $directory\
 [](fg:blue bg:green)\
 $git_branch\
 $git_status\
-[](fg:green bg:peach)\
+[](fg:green bg:purple)\
 $c\
 $rust\
 $golang\
@@ -20,7 +20,7 @@ $kotlin\
 $haskell\
 $python\
 $ocaml\
-[ ](fg:peach)\
+[ ](fg:purple)\
 $time\
 $line_break$character"""
 
@@ -52,6 +52,7 @@ teal = "#94e2d5"
 sky = "#89dceb"
 sapphire = "#74c7ec"
 blue = "#89b4fa"
+purple = "#bb9af7"
 lavender = "#b4befe"
 text = "#cdd6f4"
 subtext1 = "#bac2de"
@@ -132,8 +133,8 @@ style = "bg:teal"
 format = '[[ $symbol( $version) ](fg:base bg:teal)]($style)'
 
 [rust]
-style = "bg:peach"
-format = '[[ $symbol( $version) ](fg:base bg:peach)]($style)'
+style = "bg:purple"
+format = '[[ $symbol( $version) ](fg:base bg:purple)]($style)'
 symbol = ""
 
 [golang]
@@ -163,16 +164,16 @@ format = '[[ $symbol( $version) ](fg:base bg:teal)]($style)'
 
 [python]
 symbol = ""
-style = "bg:peach"
-format = '[[ $symbol( $version) ](fg:base bg:peach)]($style)'
+style = "bg:purple"
+format = '[[ $symbol( $version) ](fg:base bg:purple)]($style)'
 python_binary = [".venv/bin/python", ".venv/bin/python3", "python3", "python"]
 detect_files = ["pyproject.toml", "requirements.txt", ".python-version"]
 detect_folders = [".venv"]
 
 [ocaml]
 symbol = ""
-style = "bg:peach"
-format = '[[ $symbol( $version) ](fg:base bg:peach)]($style)'
+style = "bg:purple"
+format = '[[ $symbol( $version) ](fg:base bg:purple)]($style)'
 detect_files = ["dune-project", "dune", ".ocamlformat", ".opam"]
 detect_folders = ["_opam"]
 
