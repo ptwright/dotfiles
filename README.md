@@ -1,1 +1,1 @@
-`stow helix fish ghostty cosmic starship`
+`stow helix fish ghostty cosmic herdr starship`
